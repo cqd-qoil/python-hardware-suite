@@ -1,3 +1,6 @@
+[submodule "src/submodules/smc100"]
+	path = src/submodules/smc100
+	url = https://github.com/luyves/pySMC100
 [submodule "src/submodules/antilatch"]
 	path = src/submodules/antilatch
 	url = https://github.com/cqd-qoil/detector-antilatch-server

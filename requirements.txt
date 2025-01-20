@@ -11,3 +11,4 @@ serial==0.0.97
 sympy==1.13.3
 ThorlabsPM100==1.2.2
 tqdm==4.66.4
+mcculw=1.0.0

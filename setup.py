@@ -12,7 +12,7 @@ setup(
     packages=find_packages(where="src"),  # Automatically find packages in the src directory
     package_dir={"": "src"},  # Tell setuptools that the package source code is under the src directory
     include_package_data=True,  # Include other data files if necessary (e.g., non-Python files)
-    install_requires=find_packages(), #parse_requirements(),  # Install dependencies from requirements.txt
+    install_requires=parse_requirements(),  # Install dependencies from requirements.txt
     zip_safe=False,  # Disable zip safe (may not be necessary, but often safe to set to False)
     entry_points={  # Optionally, define entry points for command line scripts if needed
         # Example entry point for a command line tool, if you have one
